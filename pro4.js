@@ -44,10 +44,26 @@ function momentoAleatorio() {
 
 console.log(`O Bruxo`); //será alterado depois
 
+console.log(`
+"O Bruxo" conseguiu entender seu último feito, agora passa 
+por uma fase nova, ao qual jamais viveu; uma era de paz e 
+tranquilidade, na qual tentará viver uma vida "normal" ou 
+menos" perturbada".
+
+Nessa aventura, 'bruxo' será interpretado por você, escolha 
+todas as suas ações.
+`);
+
 const nome = prompt("Digite seu nome para iniciar: "); // Jogador colocará seu nome para haver um rappot entre o jogo e o jogador
 
-console.log(`'Bruxo' conseguiu entender seu ultimo feito
- e agora passa por uma fase nova ao qual jamais havia vivido;
-  uma era de paz e tranquilidade na qual tentara viver uma vida "normal" ou menos
-  "perturbada".
-`);
+console.log(`O bruxo ${nome} após salvar o mundo, volta para
+sua antiga vila e ajuda na reconstrução total, ele sentia - se
+culpado e preferiu ajeitar às coisas.
+  
+Conseguiu uma barraca modesta, perto da entrada da vila, para que
+conseguisse ver e ouvir às possíveis ameaças chegando antes de todos,
+e ao mesmo tempo, estar pronto para o dia de trabalho antes de todos.
+
+Sua rotina começa às 4: 30h da manhã, indo até às 19: 20h da tarde,
+não para nem aos domingos.Das 19: 30h até o dia seguinte ele se resguarda
+para seus afazeres domésticos, treinamentos de magía e combate.`)
